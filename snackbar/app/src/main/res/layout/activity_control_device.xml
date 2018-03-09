@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.snackbar.control_device">
+
+    <com.shitij.goyal.slidebutton.SwipeButton
+        android:id="@+id/slide"
+        android:layout_margin="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Bedroom Bulb"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:textAllCaps="true"
+        app:gradient_color_1="#00FF00"
+        app:gradient_color_2="#58086604"
+        app:gradient_color_3="#00FF00"
+        app:threshold="0.7"
+        app:swipe_mode="mirror"
+        app:gradient_color_2_width="100dp"
+        app:after_confirmation_background="#00FF00"
+        app:button_confirm_text="Device On"
+        app:button_swipe_text="Off Device?"
+
+        />
+
+
+</RelativeLayout>
